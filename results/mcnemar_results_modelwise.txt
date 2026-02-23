@@ -1,0 +1,379 @@
+Loading datasets...
+
+========================================
+Comparison: English Global Zero-Shot vs English Global CoT
+========================================
+Matched 1335 pairs (Aggregate).
+
+--- Aggregate (N=1335) ---
+Contingency Table (Target: Shia):
+ [[YY=359 (Agreed Shia), YN=238 (Shift to Sunni/Neutral)],
+  [NY=156 (Shift to Shia), NN=582]]
+McNemar's p-value: 0.00004
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--------------------
+Model-wise Breakdown
+--------------------
+
+--- Model: Claude-3.5-Sonnet (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=16 (Agreed Shia), YN=9 (Shift to Sunni/Neutral)],
+  [NY=18 (Shift to Shia), NN=46]]
+McNemar's p-value: 0.12208
+Result: No Significant Difference.
+
+--- Model: DeepSeek-V3 (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=20 (Agreed Shia), YN=11 (Shift to Sunni/Neutral)],
+  [NY=19 (Shift to Shia), NN=39]]
+McNemar's p-value: 0.20049
+Result: No Significant Difference.
+
+--- Model: GPT-4o (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=14 (Agreed Shia), YN=16 (Shift to Sunni/Neutral)],
+  [NY=17 (Shift to Shia), NN=42]]
+McNemar's p-value: 1.00000
+Result: No Significant Difference.
+
+--- Model: Gemma-2-27B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=19 (Agreed Shia), YN=20 (Shift to Sunni/Neutral)],
+  [NY=12 (Shift to Shia), NN=38]]
+McNemar's p-value: 0.21533
+Result: No Significant Difference.
+
+--- Model: Gemma-2-9B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=14 (Agreed Shia), YN=16 (Shift to Sunni/Neutral)],
+  [NY=15 (Shift to Shia), NN=44]]
+McNemar's p-value: 1.00000
+Result: No Significant Difference.
+
+--- Model: Gemma-3-12b (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=22 (Agreed Shia), YN=10 (Shift to Sunni/Neutral)],
+  [NY=6 (Shift to Shia), NN=51]]
+McNemar's p-value: 0.45450
+Result: No Significant Difference.
+
+--- Model: Gemma-3-27b (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=29 (Agreed Shia), YN=9 (Shift to Sunni/Neutral)],
+  [NY=10 (Shift to Shia), NN=41]]
+McNemar's p-value: 1.00000
+Result: No Significant Difference.
+
+--- Model: Gemma-3-4b (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=28 (Agreed Shia), YN=11 (Shift to Sunni/Neutral)],
+  [NY=9 (Shift to Shia), NN=41]]
+McNemar's p-value: 0.82380
+Result: No Significant Difference.
+
+--- Model: Grok-4-fast (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=34 (Agreed Shia), YN=2 (Shift to Sunni/Neutral)],
+  [NY=5 (Shift to Shia), NN=48]]
+McNemar's p-value: 0.45312
+Result: No Significant Difference.
+
+--- Model: Llama-4-Scout (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=34 (Agreed Shia), YN=7 (Shift to Sunni/Neutral)],
+  [NY=5 (Shift to Shia), NN=43]]
+McNemar's p-value: 0.77441
+Result: No Significant Difference.
+
+--- Model: Llama3.1-8B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=30 (Agreed Shia), YN=37 (Shift to Sunni/Neutral)],
+  [NY=5 (Shift to Shia), NN=17]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--- Model: Llama3.2-3B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=24 (Agreed Shia), YN=26 (Shift to Sunni/Neutral)],
+  [NY=8 (Shift to Shia), NN=31]]
+McNemar's p-value: 0.00294
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--- Model: Llama3.3-70B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=23 (Agreed Shia), YN=14 (Shift to Sunni/Neutral)],
+  [NY=13 (Shift to Shia), NN=39]]
+McNemar's p-value: 1.00000
+Result: No Significant Difference.
+
+--- Model: Mistral-Nemo-12B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=22 (Agreed Shia), YN=38 (Shift to Sunni/Neutral)],
+  [NY=10 (Shift to Shia), NN=19]]
+McNemar's p-value: 0.00006
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--- Model: Qwen2.5-7B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=30 (Agreed Shia), YN=12 (Shift to Sunni/Neutral)],
+  [NY=4 (Shift to Shia), NN=43]]
+McNemar's p-value: 0.07681
+Result: No Significant Difference.
+
+========================================
+Comparison: Hindi Global Zero-Shot vs Hindi Global CoT
+========================================
+Matched 1335 pairs (Aggregate).
+
+--- Aggregate (N=1335) ---
+Contingency Table (Target: Shia):
+ [[YY=437 (Agreed Shia), YN=179 (Shift to Sunni/Neutral)],
+  [NY=89 (Shift to Shia), NN=630]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--------------------
+Model-wise Breakdown
+--------------------
+
+--- Model: Claude-3.5-Sonnet (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=28 (Agreed Shia), YN=10 (Shift to Sunni/Neutral)],
+  [NY=3 (Shift to Shia), NN=48]]
+McNemar's p-value: 0.09229
+Result: No Significant Difference.
+
+--- Model: DeepSeek-V3 (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=23 (Agreed Shia), YN=13 (Shift to Sunni/Neutral)],
+  [NY=3 (Shift to Shia), NN=50]]
+McNemar's p-value: 0.02127
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--- Model: GPT-4o (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=30 (Agreed Shia), YN=5 (Shift to Sunni/Neutral)],
+  [NY=8 (Shift to Shia), NN=46]]
+McNemar's p-value: 0.58105
+Result: No Significant Difference.
+
+--- Model: Gemma-2-27B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=30 (Agreed Shia), YN=7 (Shift to Sunni/Neutral)],
+  [NY=3 (Shift to Shia), NN=49]]
+McNemar's p-value: 0.34375
+Result: No Significant Difference.
+
+--- Model: Gemma-2-9B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=25 (Agreed Shia), YN=9 (Shift to Sunni/Neutral)],
+  [NY=7 (Shift to Shia), NN=48]]
+McNemar's p-value: 0.80362
+Result: No Significant Difference.
+
+--- Model: Gemma-3-12b (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=27 (Agreed Shia), YN=9 (Shift to Sunni/Neutral)],
+  [NY=7 (Shift to Shia), NN=46]]
+McNemar's p-value: 0.80362
+Result: No Significant Difference.
+
+--- Model: Gemma-3-27b (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=32 (Agreed Shia), YN=10 (Shift to Sunni/Neutral)],
+  [NY=8 (Shift to Shia), NN=39]]
+McNemar's p-value: 0.81453
+Result: No Significant Difference.
+
+--- Model: Gemma-3-4b (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=30 (Agreed Shia), YN=12 (Shift to Sunni/Neutral)],
+  [NY=10 (Shift to Shia), NN=37]]
+McNemar's p-value: 0.83181
+Result: No Significant Difference.
+
+--- Model: Grok-4-fast (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=28 (Agreed Shia), YN=5 (Shift to Sunni/Neutral)],
+  [NY=2 (Shift to Shia), NN=54]]
+McNemar's p-value: 0.45312
+Result: No Significant Difference.
+
+--- Model: Llama-4-Scout (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=33 (Agreed Shia), YN=8 (Shift to Sunni/Neutral)],
+  [NY=4 (Shift to Shia), NN=44]]
+McNemar's p-value: 0.38770
+Result: No Significant Difference.
+
+--- Model: Llama3.1-8B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=26 (Agreed Shia), YN=26 (Shift to Sunni/Neutral)],
+  [NY=7 (Shift to Shia), NN=30]]
+McNemar's p-value: 0.00132
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--- Model: Llama3.2-3B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=21 (Agreed Shia), YN=17 (Shift to Sunni/Neutral)],
+  [NY=9 (Shift to Shia), NN=42]]
+McNemar's p-value: 0.16864
+Result: No Significant Difference.
+
+--- Model: Llama3.3-70B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=36 (Agreed Shia), YN=5 (Shift to Sunni/Neutral)],
+  [NY=6 (Shift to Shia), NN=42]]
+McNemar's p-value: 1.00000
+Result: No Significant Difference.
+
+--- Model: Mistral-Nemo-12B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=39 (Agreed Shia), YN=29 (Shift to Sunni/Neutral)],
+  [NY=3 (Shift to Shia), NN=18]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--- Model: Qwen2.5-7B (N=89) ---
+Contingency Table (Target: Shia):
+ [[YY=29 (Agreed Shia), YN=14 (Shift to Sunni/Neutral)],
+  [NY=9 (Shift to Shia), NN=37]]
+McNemar's p-value: 0.40487
+Result: No Significant Difference.
+
+========================================
+Comparison: Regional English Zero-Shot vs Regional English CoT
+========================================
+Matched 8027 pairs (Aggregate).
+
+--- Aggregate (N=8027) ---
+Contingency Table (Target: Shia):
+ [[YY=2499 (Agreed Shia), YN=793 (Shift to Sunni/Neutral)],
+  [NY=1154 (Shift to Shia), NN=3581]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift TOWARDS Shia bias
+
+--------------------
+Model-wise Breakdown
+--------------------
+
+--- Model: Claude-3.5-Sonnet (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=219 (Agreed Shia), YN=34 (Shift to Sunni/Neutral)],
+  [NY=37 (Shift to Shia), NN=249]]
+McNemar's p-value: 0.81259
+Result: No Significant Difference.
+
+--- Model: DeepSeek-V3 (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=184 (Agreed Shia), YN=65 (Shift to Sunni/Neutral)],
+  [NY=72 (Shift to Shia), NN=218]]
+McNemar's p-value: 0.60838
+Result: No Significant Difference.
+
+--- Model: GPT-4o (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=195 (Agreed Shia), YN=44 (Shift to Sunni/Neutral)],
+  [NY=54 (Shift to Shia), NN=246]]
+McNemar's p-value: 0.36335
+Result: No Significant Difference.
+
+--- Model: Gemma-2-27B (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=199 (Agreed Shia), YN=84 (Shift to Sunni/Neutral)],
+  [NY=53 (Shift to Shia), NN=203]]
+McNemar's p-value: 0.01011
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias
+
+--- Model: Gemma-2-9B (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=162 (Agreed Shia), YN=60 (Shift to Sunni/Neutral)],
+  [NY=72 (Shift to Shia), NN=245]]
+McNemar's p-value: 0.33838
+Result: No Significant Difference.
+
+--- Model: Gemma-3-12b (N=536) ---
+Contingency Table (Target: Shia):
+ [[YY=148 (Agreed Shia), YN=51 (Shift to Sunni/Neutral)],
+  [NY=73 (Shift to Shia), NN=264]]
+McNemar's p-value: 0.05888
+Result: No Significant Difference.
+
+--- Model: Gemma-3-27b (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=190 (Agreed Shia), YN=61 (Shift to Sunni/Neutral)],
+  [NY=57 (Shift to Shia), NN=231]]
+McNemar's p-value: 0.78256
+Result: No Significant Difference.
+
+--- Model: Gemma-3-4b (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=185 (Agreed Shia), YN=58 (Shift to Sunni/Neutral)],
+  [NY=50 (Shift to Shia), NN=246]]
+McNemar's p-value: 0.50077
+Result: No Significant Difference.
+
+--- Model: Grok-4-fast (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=253 (Agreed Shia), YN=31 (Shift to Sunni/Neutral)],
+  [NY=24 (Shift to Shia), NN=231]]
+McNemar's p-value: 0.41875
+Result: No Significant Difference.
+
+--- Model: Llama-4-Scout (N=484) ---
+Contingency Table (Target: Shia):
+ [[YY=24 (Agreed Shia), YN=22 (Shift to Sunni/Neutral)],
+  [NY=204 (Shift to Shia), NN=234]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift TOWARDS Shia bias
+
+--- Model: Llama3.1-8B (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=137 (Agreed Shia), YN=57 (Shift to Sunni/Neutral)],
+  [NY=105 (Shift to Shia), NN=240]]
+McNemar's p-value: 0.00020
+**Result: Significant Difference!**
+Direction: Significant shift TOWARDS Shia bias
+
+--- Model: Llama3.2-3B (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=137 (Agreed Shia), YN=34 (Shift to Sunni/Neutral)],
+  [NY=89 (Shift to Shia), NN=279]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift TOWARDS Shia bias
+
+--- Model: Llama3.3-70B (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=142 (Agreed Shia), YN=61 (Shift to Sunni/Neutral)],
+  [NY=99 (Shift to Shia), NN=237]]
+McNemar's p-value: 0.00332
+**Result: Significant Difference!**
+Direction: Significant shift TOWARDS Shia bias
+
+--- Model: Mistral-Nemo-12B (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=178 (Agreed Shia), YN=65 (Shift to Sunni/Neutral)],
+  [NY=73 (Shift to Shia), NN=223]]
+McNemar's p-value: 0.55141
+Result: No Significant Difference.
+
+--- Model: Qwen2.5-7B (N=539) ---
+Contingency Table (Target: Shia):
+ [[YY=146 (Agreed Shia), YN=66 (Shift to Sunni/Neutral)],
+  [NY=92 (Shift to Shia), NN=235]]
+McNemar's p-value: 0.04637
+**Result: Significant Difference!**
+Direction: Significant shift TOWARDS Shia bias

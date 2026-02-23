@@ -1,0 +1,16 @@
+Model,Shia->Sunni,Sunni->Shia,Net Shift (S->Su),p-value,Significance,Direction
+Llama3.1-8B,24,9,15,0.0135,*,Shift to Sunni/Neutral
+Llama3.2-3B,21,9,12,0.0428,*,Shift to Sunni/Neutral
+Grok-4-fast,9,6,3,0.6072,,Stable
+Gemma-2-27B,20,18,2,0.8714,,Stable
+Llama-4-Scout,12,12,0,1.0000,,Stable
+Qwen2.5-7B,14,15,-1,1.0000,,Stable
+Gemma-3-4b,11,14,-3,0.6900,,Stable
+Gemma-3-27b,10,14,-4,0.5413,,Stable
+Llama3.3-70B,15,19,-4,0.6076,,Stable
+Gemma-3-12b,10,14,-4,0.5413,,Stable
+Gemma-2-9B,19,23,-4,0.6440,,Stable
+DeepSeek-V3,14,19,-5,0.4869,,Stable
+GPT-4o,17,22,-5,0.5224,,Stable
+Mistral-Nemo-12B,14,22,-8,0.2430,,Stable
+Claude-3.5-Sonnet,11,24,-13,0.0410,*,Shift to Shia

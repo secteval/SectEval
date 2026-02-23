@@ -1,0 +1,28 @@
+Loading datasets...
+
+--- Comparison: English Global Zero-Shot vs English Global CoT ---
+Matched 1335 pairs.
+Contingency Table (Target: Shia):
+ [[YY=359 (Agreed Shia), YN=238 (Shift to Sunni/Neutral)],
+  [NY=156 (Shift to Shia), NN=582]]
+McNemar's p-value: 0.00004
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias (Bias 1 > Bias 2)
+
+--- Comparison: Hindi Global Zero-Shot vs Hindi Global CoT ---
+Matched 1335 pairs.
+Contingency Table (Target: Shia):
+ [[YY=437 (Agreed Shia), YN=179 (Shift to Sunni/Neutral)],
+  [NY=89 (Shift to Shia), NN=630]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift AWAY from Shia bias (Bias 1 > Bias 2)
+
+--- Comparison: Regional English Zero-Shot vs Regional English CoT ---
+Matched 8027 pairs.
+Contingency Table (Target: Shia):
+ [[YY=2499 (Agreed Shia), YN=793 (Shift to Sunni/Neutral)],
+  [NY=1154 (Shift to Shia), NN=3581]]
+McNemar's p-value: 0.00000
+**Result: Significant Difference!**
+Direction: Significant shift TOWARDS Shia bias (Bias 2 > Bias 1)
